@@ -1,0 +1,108 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.system-login-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.system-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.system-login {
+  width: 456px;
+  height: 523px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #fefefe;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 8px;
+}
+
+.system-login-image-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.system-login-image {
+  height: 100%;
+}
+
+.website-name {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f7931e;
+}
+
+.login {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.input-fields-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  font-family: 'HK Grotesk';
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+  width: 360px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background-color: #e2e8f0;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #475569;
+  align-self: flex-start;
+}
+
+.login-button {
+  width: 360px;
+  background-color: #f7931e;
+  border-radius: 8px;
+  height: 40px;
+  font-family: 'DM Sans';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
